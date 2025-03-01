@@ -1,0 +1,7 @@
+/* Image Styles */
+.header-left .logo {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black; /* Black border */
+    border-radius: 15px; /* Rounded rectangle border */
+}

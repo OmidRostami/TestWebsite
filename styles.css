@@ -1,0 +1,36 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and borders are included in the element's width */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0; /* Remove default body margin */
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    max-width: 100%; /* Prevent main from exceeding viewport width */
+}
+
+main p {
+    font-size: 1.2rem;
+    margin-bottom: 10px; /* Space between quote and author */
+}
+
+main p.author {
+    font-style: italic;
+    color: #555; /* Gray for author text */
+}
